@@ -9,7 +9,7 @@ const LoginScreen = ({ navigation }) => {
             <Text>Login Screen!</Text>
             <Button 
                 title='Ir para Home'
-                onPress={() => navigation.replace('Home')}    
+                onPress={() => navigation.replace('Home', { username: 'Emily '})}    
             />
         </View>
     );
